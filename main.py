@@ -105,4 +105,4 @@ if __name__ == '__main__':
     with app.app_context():
         db.drop_all()  # This will drop all existing tables
         db.create_all()  # This will create all tables based on your models
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=8888, debug=True)
